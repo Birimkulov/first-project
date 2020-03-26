@@ -1,0 +1,159 @@
+@media (max-width: 1200px) {
+
+}@media (max-width: 992px) {
+    .about-list-item{
+        margin:0 25px
+    }
+    .burger{
+        display: flex;
+        position: fixed;
+       right: 15px;
+
+    }
+    .top-menu{
+        display: none;
+
+    }
+    .top-menu.show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: cadetblue;
+        position: fixed;
+        z-index: 2;
+    }
+    .top-menu.show a{
+        margin: 10px 0 0;
+    }
+    .works-list{
+    flex-wrap: wrap;
+    justify-content: center;}
+    .col-5{
+        width: 54%;
+        padding-top: 15px;
+    }
+    .project-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-4 {
+        width: 50%;
+    }
+}@media (max-width: 768px) {
+    .body{
+        font-size: 14px;
+    }
+    .top-menu_item{
+        margin-left: 35px;
+    }
+    h2{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .site-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .row {
+        flex-wrap: wrap-reverse;}
+
+    .col-6 {
+        width: 100%;
+    }
+    .block {
+        width: 51%;
+
+    }
+    .about-list-item {
+        margin: 0 20px;
+    }
+
+}@media (max-width: 540px) {
+    .top-menu_item {
+        margin-left: 50px;
+        line-height: 24px;
+}
+    h5 {
+        font-size: 15px;
+        font-weight: 400;}
+    h2 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    button {
+        width: 190px;
+        height: 40px;
+        font-size: 15px;}
+    .box h2{
+        font-size: 22px;
+        line-height: 39px;
+    }
+    .works-list-img{
+        width:300px ;
+    }
+       .site-row {
+            flex-wrap: wrap;
+            justify-content: end;}
+    .row {
+        flex-wrap: wrap-reverse;
+        padding: 0}
+
+
+    .about-img{
+        width: 300px;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+        .works-list {
+            justify-content: flex-start;
+        }
+    .about-list-item {
+        margin: 0 75px;
+    }
+    .works-title{
+        font-size: 19px;
+        line-height: 49px;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+    .about-title{
+        font-size: 25px;
+        line-height: 44px;
+    }
+
+    .project-title{
+        font-size: 28px;
+    }
+    .subscribe-forms{
+        width: 293px;
+        border: none;
+    }
+    input[type="email"],input::-webkit-input-placeholder {
+        border: 1px solid #F2F2F2;
+        border-radius:30px ;
+    }
+    input[type="submit"] {
+        border-radius: 30px;
+        margin-left: 60px;
+    }
+    .play-btn {
+        width: 215px;
+        padding: 17px 19px;
+    }
+    .subscribe-text{
+        padding-top: 50px;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
